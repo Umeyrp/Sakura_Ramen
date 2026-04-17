@@ -1,7 +1,6 @@
 /* raleway-regular - latin */
 @font-face {
     font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -12,7 +11,6 @@
 /* raleway-700 - latin */
 @font-face {
     font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -23,7 +21,6 @@
 /* economica-700 - latin */
 @font-face {
     font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Economica';
     font-style: normal;
     font-weight: 700;
@@ -34,7 +31,6 @@
 /* raleway-600 - latin */
 @font-face {
     font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
@@ -75,7 +71,7 @@ html {
 }
 
 .landing-section h1 {
-    font-family: raleway;
+    font-family: Raleway;
     font-weight: 700;
     font-size: 6rem;
     text-transform: uppercase;
@@ -84,7 +80,7 @@ html {
 }
 
 .landing-section p {
-    font-family: raleway;
+    font-family: Raleway;
     font-weight: 400;
     text-align: center;
     font-size: 1.625rem;
@@ -165,7 +161,7 @@ html {
 .pick-food {
     display: flex;
     justify-content: space-between;
-    padding: 0rem 10rem 0rem 10rem;
+    padding: 0rem 10rem;
 }
 
 .pick-food div {
@@ -220,24 +216,19 @@ html {
     width: 21.438rem;
 }
 
-.Tonkasu {
-    display: flex;
-    align-items: center;
-    gap: 5rem;
-    /* In Figma ist der Gap bei den Tonkasu Ramen 56px und bei den anderen zwei 80px */
-}
-
-.Spicy {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    gap: 5rem;
-}
-
+.Tonkasu,
+.Spicy,
 .Shio {
     display: flex;
     align-items: center;
     gap: 5rem;
+}
+
+.Spicy {
+    flex-direction: row-reverse;
+}
+
+.Shio {
     margin-bottom: 9.5rem;
 }
 
