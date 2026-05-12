@@ -1,1 +1,1 @@
-[Link to website](https://muhammedkemiksiz.developerakademie.net/Javascript/Projekte/Sakura_Ramen/index.html)
+[Link to website](https://muhammedkemiksiz.developerakademie.net/HTML_und_CSS/Projekte/Sakura_Ramen/index.html)
